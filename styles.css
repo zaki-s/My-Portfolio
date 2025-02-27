@@ -1,0 +1,8 @@
+
+/*The header*/
+header {
+    background-color: purple;
+    color: white; /* To make text readable */
+    padding: 20px;
+    text-align: center;
+}
