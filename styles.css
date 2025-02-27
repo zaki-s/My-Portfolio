@@ -18,3 +18,12 @@ h1, h2 {
     color: #ddd;
 }
 
+#profile img {
+    width: 150px;
+    height: auto; 
+    max-height: 150px; 
+    object-fit: cover;
+    border-radius: 0; 
+    border: none;
+    margin-left: 20px;
+}
