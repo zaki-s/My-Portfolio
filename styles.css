@@ -11,3 +11,10 @@ header {
 h1, h2 {
     color: #a060ff;
 }
+
+/*the profile*/
+#profile .text {
+    flex: 1;
+    color: #ddd;
+}
+
