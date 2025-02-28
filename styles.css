@@ -57,3 +57,24 @@ a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+/*The only button*/
+.action {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(78, 74, 78);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: darkpurple;
+}
