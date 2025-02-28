@@ -13,19 +13,24 @@ h1, h2 {
 }
 
 /*the profile*/
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+}
+
 #profile .text {
     flex: 1;
     color: #ddd;
 }
 
 #profile img {
-    width: 150px;
-    height: auto; 
-    max-height: 150px; 
+    flex: 0;
+    width: 250px;
+    border-radius: 10px;
     object-fit: cover;
-    border-radius: 0; 
-    border: none;
-    margin-left: 20px;
 }
 
 /* General Styles */
