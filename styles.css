@@ -73,8 +73,10 @@ a:hover {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .btn:hover {
-    background-color: darkpurple;
+    background-color: #1e0038;
+    transform: scale(1.1);
 }
